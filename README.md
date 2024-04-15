@@ -3,4 +3,7 @@
 Greetings, I am Ferrari, a Computer Engineering student at the University of California San Diego Jacobs School of Engineering. 
 
 ## Project Portfolio
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![Project Catalog](http://www.google.com.au/images/nav_logo7.png)]([http://google.com.au/](https://b1bomber.github.io/Portfolio/main.html))
+
+## Alternative Platforms
+[![Linkedin](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
