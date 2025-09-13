@@ -5,8 +5,9 @@
 
 h1 {
     text-align: center;
-    width: 20vw;
-    font-size: auto; 
+    font-size: 8vw;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 #poster {
