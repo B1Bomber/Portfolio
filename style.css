@@ -4,7 +4,7 @@
 
 h1 {
     justify-self: center;
-    size: 50 vw;
+    size: 20 vw;
 }
 
 section {
@@ -15,10 +15,10 @@ section {
 
 h2 {
     justify-self: center;
-    size: 25 vw;
+    size: 10 vw;
 }
 
 h3 {
     justify-self: center;
-    size: 10 vw;
+    size: 5 vw;
 }
