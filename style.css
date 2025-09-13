@@ -4,13 +4,12 @@
 }
 
 h1 {
-    justify-self: center;
-    align-self: center;
-    size: 20 vw;
+  text-align: center;
+  font-size: 20vw; /* if you want it huge and responsive */
 }
 
 hr {
-    height: auto;
+    height: 2px;
 }
 
 h2 {
