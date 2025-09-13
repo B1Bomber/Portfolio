@@ -10,11 +10,13 @@ h1 {
 }
 
 #poster {
-    width: 100vw;
+    align-self: center;
+    width: 95vw;
     height: auto;
 }
 
 video {
-    width: 100vw;
+    align-self: center;
+    width: 95vw;
     height: auto;
 }
