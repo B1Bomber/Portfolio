@@ -1,0 +1,23 @@
+* {
+    background-color: aliceblue;
+}
+
+h1 {
+    justify-self: center;
+    size: 50 vw;
+}
+
+section {
+    display: flex;
+    grid-column: auto;
+}
+
+h2 {
+    justify-self: center;
+    size: 25 vw;
+}
+
+img {
+    height: 100 vh;
+    width: 100 vw;
+}
