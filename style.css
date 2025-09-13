@@ -7,15 +7,24 @@ h1 {
     size: 20 vw;
 }
 
+hr {
+    height: auto;
+}
+
+h2 {
+    justify-self: center;
+    size: 10 vw;
+}
+
 section {
     display: flex;
     grid-row: auto;
     justify-content: center;
 }
 
-h2 {
-    justify-self: center;
-    size: 10 vw;
+img {
+    height: auto;
+    width: auto;
 }
 
 h3 {
