@@ -2,7 +2,7 @@
 
 Greetings, I am Ferrari, a Computer Engineering student at the University of California San Diego Jacobs School of Engineering. 
 
-## Project Portfolio
+## [Project Portfolio](https://b1bomber.github.io/Portfolio/main.html)
 [![Project Catalog](https://cdn-icons-png.flaticon.com/512/3767/3767084.png)](https://b1bomber.github.io/Portfolio/main.html)
 
 ## Alternative Platforms
