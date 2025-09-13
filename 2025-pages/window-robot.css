@@ -12,12 +12,12 @@ h1 {
 
 #poster {
     align-self: center;
-    width: 95vw;
+    width: fit-content;
     height: auto;
 }
 
 video {
     align-self: center;
-    width: 95vw;
+    width: fit-content;
     height: auto;
 }
