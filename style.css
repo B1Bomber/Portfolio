@@ -5,6 +5,7 @@
 
 h1 {
     justify-self: center;
+    align-self: center;
     size: 20 vw;
 }
 
@@ -18,7 +19,7 @@ h2 {
 }
 
 section {
-    display: grid;
+    display: flexbox;
     grid-row: auto;
     justify-content: center;
     align-items: center;
