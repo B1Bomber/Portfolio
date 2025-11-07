@@ -1,0 +1,25 @@
+* {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8vw;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#game-home {
+    align-self: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#null-terminators-logo {
+    align-self: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
