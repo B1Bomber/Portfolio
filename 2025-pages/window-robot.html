@@ -80,8 +80,80 @@
             </p>
         </li>
     </ul>
+    <h2>
+        Proposed Solution
+    </h2>
+    <p>
+        Robot with 2 sockets, 2 ropes, and a spinning mop. <br>
+        - The ropes are attached to the sockets which are sticked to the top corners of the window. <br>
+        - By changing the tension and lengths of these ropes, the robot can go up, down, and side to side. <br>
+    </p>
+    <h2>
+        Hypothesis
+    </h2>
+    <p>
+        The robot that we make should be able to clean the entire window by varying the tension and length of ropes. This will allow the robot to reach every angle of the window while sweeping a spinning mop as it moves.
+    </p>
+    <h2>
+        Software Control Flow
+    </h2>
+    <p>
+        There are 2 different Modes: <br>
+        - Automatic Mode: The bot will find all the edges and boundaries of the window by itself, traversing the entire window. <br>
+        - Manual Mode: User controls the bot through a phone or computer, traversing the path input from user.
+    </p>
+    <img id="software-control-flow-diagram" src="../assets/2025-pictures/window-robot/software-control-flow-diagram.png" alt="Software Control Flow Diagram for Window Cleaning Robot">
+    <h2>
+        Hardware Control Flow
+    </h2>
+    <img id="hardware-control-flow-diagram" src="../assets/2025-pictures/window-robot/hardware-control-flow-diagram.png" alt="Hardware Control Flow Diagram for Window Cleaning Robot">
+    <h2>
+        Printed Circuit Board (PCB)
+    </h2>
+    <ol>
+        <li>
+            Power the ESP32 Devboard for controlling the components
+        </li>
+        <li>
+            Regulate Voltage - from 12V to 5V 
+        </li>
+        <li>
+            Connect pins for ultrasonic sensors and other motor drivers
+        </li>
+    </ol>
+    <h3>
+        PCB Schematic
+    </h3>
+    <img id="pcb-schematic" src="../assets/2025-pictures/window-robot/pcb-schematic.png" alt="PCB Schematic for Window Cleaning Robot">
+    <h3>
+        PCB Layout
+    </h3>
+    <img id="" src="../assets/2025-pictures/window-robot/" alt=" for Window Cleaning Robot">
+    <h3>
+        PCB 3D View
+    </h3>
+    <img id="" src="../assets/2025-pictures/window-robot/" alt=" for Window Cleaning Robot">
+    <h3>
+        Assembled PCB
+    </h3>
+    <img id="" src="../assets/2025-pictures/window-robot/" alt=" for Window Cleaning Robot">
+    <h3>
+        Final PCB
+    </h3>
+    <img id="" src="../assets/2025-pictures/window-robot/" alt=" for Window Cleaning Robot">
+
+    <hr>
     <a href="https://sites.google.com/ucsd.edu/ece-196-team-ferrari/our-solution?authuser=0">
         Click to see the solution
     </a>
+    <h2>
+        Resources
+    </h2>
+    <p>
+        https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/  <br> 
+        We used the Last Minute Engineers tutorial to learn how to connect and control a stepper motor using the L298N driver and an Arduino. It also helped us understand which pins to use for direction and speed control in our code. <br>
+        https://docs.cirkitdesigner.com/component/bcc720ad-e6dc-e6f5-05e1-3da5dfb74a6b/tmc2209 <br>
+        We used the Cirkit Designer documentation to understand the hardware setup of the TMC2209 stepper driver. It helped us identify the correct pins for power, ground, STEP, DIR, EN, and UART to connect the driver properly to our circuit. <br>
+    </p>
 </body>
 </html>
