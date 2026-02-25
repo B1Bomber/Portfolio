@@ -41,12 +41,6 @@ a {
     object-fit: contain;
 }
 
-video {
-    align-self: center;
-    width: 100%;
-    object-fit: contain;
-}
-
 #software-control-flow-diagram {
     width: 100%;
 }
