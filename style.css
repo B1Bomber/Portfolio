@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+body {
+    width: 96vw;
+}
+
 h1 {
     text-align: center;
     font-size: 8vw;

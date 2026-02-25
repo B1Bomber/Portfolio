@@ -3,11 +3,35 @@
     font-family: sans-serif;
 }
 
+body {
+    width: 96vw;
+}
+
 h1 {
     text-align: center;
-    font-size: 8vw;
+    font-size: clamp(36px, 8vw, 96px);
     margin: 0 auto;
     width: fit-content;
+}
+
+h2 {
+    font-size: clamp(20px, 4vw, 72px);
+}
+
+h3 {
+    font-size: clamp(16px, 2vw, 56px);
+}
+
+p {
+    font-size: clamp(12px, 1.5vw, 32px);
+}
+
+li {
+    font-size: clamp(12px, 1.5vw, 32px);
+}
+
+a {
+    font-size: clamp(12px, 1.5vw, 32px);
 }
 
 #poster {
@@ -45,7 +69,7 @@ video {
     width: 100%;
 }
 
-#pcb >section > img {
+#pcb > section > img {
     width: 100%;
 }
 
