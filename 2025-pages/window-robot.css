@@ -20,6 +20,49 @@ h1 {
 video {
     align-self: center;
     width: 100%;
-    height: auto;
     object-fit: contain;
+}
+
+#software-control-flow-diagram {
+    width: 100%;
+}
+
+#hardware-control-flow-diagram {
+    width: 100%;
+}
+
+#pcb {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#pcb > section {
+    width: 50%;
+}
+
+#pcb > section:nth-child(5) {
+    width: 100%;
+}
+
+#pcb >section > img {
+    width: 100%;
+}
+
+#threeD-print {
+    display: flex;
+    width: 100%;
+}
+
+#threeD-print > img {
+    width: 50%;
+}
+
+#laser-cut {
+    display: flex;
+    width: 100%;
+}
+
+#laser-cut > img {
+    width: 50%;
 }
