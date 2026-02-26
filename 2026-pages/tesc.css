@@ -33,3 +33,8 @@ li {
 a {
     font-size: clamp(12px, 1.5vw, 32px);
 }
+
+iframe {
+    width: 100%;
+    height: 75vh;
+}
