@@ -5,6 +5,7 @@
     <meta name = "description" content = "Line Following Robot">
     <meta name = "author" content = "Ferrari Guan">
     <link rel = "icon" href = "../assets/favicon.jpg">
+    <link rel="stylesheet" href="line-robot.css">
     <title>Line Following Robot</title>
 </head>
 <body>
@@ -31,5 +32,153 @@
             H. Yang
         </li>
     </ul>
+    <h2>
+        First Prototype
+    </h2>
+    <split>
+        <img src="../assets/2023-pictures/line-robot/robot-prototype-1.jpg" alt="Prototype view 1">
+        <img src="../assets/2023-pictures/line-robot/robot-prototype-2.png" alt="Prototype view 2">
+    </split>
+    <h2>
+        Second Prototype 
+    </h2>
+    <p>
+        During the last week of the manufacturing process, we assembled all the individual components onto the new chassis. 
+        The whole system was stress tested and the PID values were adjusted and optimized for the race tracks. 
+        On the first seeding round, we got 8 laps. 
+        On the second seeding round, we got 11 laps. 
+        However, we tried to get a faster and more consistent lap number by changing the PID values. 
+        However, the robot had worse performance, but we eventually got similar performances. 
+        We could not get past the local maximum lap number during the second seeding round. 
+        In an effort to try improving our lap number, we reoriented the Arduino Mega for better weight distribution. 
+        So, if we got more time, we would make a new chassis with better weight distribution and enhance our photoresistors system. 
+        Also, if given more time, we would test our PID values more extensively. 
+    </p>
+    <triple>
+        <div>
+            <p>
+                Chassis
+            </p>
+            <img src="../assets/2023-pictures/line-robot/robot-chassis.png">
+        </div>
+        <div>
+            <p>
+                Photoresistor Circuit
+            </p>
+            <img src="../assets/2023-pictures/line-robot/robot-photoresistor.png">
+        </div>
+        <div>
+            <p>
+                PID Circuit
+            </p>
+            <img src="../assets/2023-pictures/line-robot/robot-pid.png">
+        </div>
+    </triple>
+    <h2>
+        Testing
+    </h2>
+    <split>
+        <video width="50%" controls>
+            <source src="../assets/2023-pictures/line-robot/robot-testing-8.mp4" type="video/mp4">
+            Your browser does not support this video element.
+        </video> 
+        <video width="50%" controls>
+            <source src="../assets/2023-pictures/line-robot/robot-testing-challenge-3.mp4" type="video/mp4">
+            Your browser does not support this video element.
+        </video> 
+    </split>
+    <h3>
+        PID Controls
+    </h3>
+    <p>
+        PID stands for Proportional Integral Derivative. 
+        These categories refer to manipulations of voltage gain. 
+        Error is the amount of offset that the robot has on the track. 
+        Proportional gain ensures that the error will reach 0. 
+        A higher proportional gain increases response time. 
+        Integral gain removes long term error. 
+        A higher integral gain increases response time and causes oscillations. 
+        Derivative gain controls the speed at which the error reaches 0. 
+        A higher derivative gain will decrease oscillations up to a threshold. 
+        <br><br>
+        <b> Tuning Speed and PID for the different tracks:</b>
+        <br> 
+        For the loop track we had to chnage the PID greatly. 
+        We slowed down for this track. 
+        On the drag race, we focused mainly on speed and cranked it up to max. 
+        There were only some minor PID changes. 
+        Lastly we have the frequency test where we focused on getting as far as possible so we slowed down our speed drastically and increased P & I a medium amout and D minimally. 
+    </p>
+    <p>
+        Values Chosen:
+    </p>
+    <ul>
+        <li>
+            P: 46.00
+        </li>
+        <li>
+            I: 0.06
+        </li>
+        <li>
+            D: 0.24
+        </li>
+    </ul>
+    <img src="../assets/2023-pictures/line-robot/pid-diagram.png" alt="A block diagram of PID">
+    <h2>
+        Final Poster
+    </h2>
+    <split>
+        <img src="../assets/2023-pictures/line-robot/ECE 5 Final Poster-1.jpg" alt="Page 1 of the poster">
+        <img src="../assets/2023-pictures/line-robot/ECE 5 Final Poster-2.jpg" alt="Page 2 of the poster">
+    </split>
+    <h2>
+        The Competition
+    </h2>
+    <triple>
+        <video width="33%" controls>
+            <source src="../assets/2023-pictures/line-robot/robot-drag.mp4" type="video/mp4">
+            Your browser does not support this video element.
+        </video> 
+        <video width="33%" controls>
+            <source src="../assets/2023-pictures/line-robot/robot-loop.mp4" type="video/mp4">
+            Your browser does not support this video element.
+        </video> 
+        <video width="33%" controls>
+            <source src="../assets/2023-pictures/line-robot/robot-frequency.mp4" type="video/mp4">
+            Your browser does not support this video element.
+        </video> 
+    </triple>
+    <h3>
+        Results
+    </h3>
+    <p>
+        Drag Race: 3rd place, 10.10 seconds 
+        <br>
+        Circular Loop: 11 laps in 2 minutes 
+        <br>
+        Frequency Sweep: 8 feet in 15.08 seconds
+    </p>
+    <h2>
+        The Team
+    </h2>
+    <p>
+        <b>High Voltage, We are shocking. ⚡</b>
+        <br>
+        With high electrical potential to innovate, we are shocking the market with shocking new discoveries. 
+    </p>
+    <split>
+        <section>
+            <p>
+                The team before the project. 
+            </p>
+            <img src="../assets/2023-pictures/line-robot/team-before.jpg">
+        </section>
+        <section>
+            <p>
+                The team after the project with Dr. Karcher William Morris
+            </p>
+            <img src="../assets/2023-pictures/line-robot/team-after.jpg">
+        </section>
+    </split>
 </body>
 </html>

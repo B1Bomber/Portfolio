@@ -1,0 +1,77 @@
+* {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+body {
+    width: 96vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: clamp(36px, 8vw, 96px);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+h2 {
+    font-size: clamp(20px, 4vw, 72px);
+}
+
+h3 {
+    font-size: clamp(16px, 2vw, 56px);
+}
+
+p {
+    font-size: clamp(12px, 1.5vw, 32px);
+}
+
+li {
+    font-size: clamp(12px, 1.5vw, 32px);
+}
+
+a {
+    font-size: clamp(12px, 1.5vw, 32px);
+}
+
+split {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+split > img {
+    width: 50%;
+}
+
+split > section {
+    width: 50%;
+}
+
+split > section > img {
+    width: 100%;
+}
+
+split > section > p {
+    text-align: center;
+}
+
+triple {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+triple > div {
+    width: 33%;
+}
+
+triple > div > p {
+    text-align: center;
+}
+
+triple > div > img {
+    width: 100%;
+}
