@@ -45,6 +45,27 @@ split > img {
     width: 50%;
 }
 
+quad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+quad > img {
+    width: 25%;
+}
+
+middle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+video {
+    height: 75vh;
+}
+
 triple {
     display: flex;
     flex-wrap: wrap;
@@ -55,8 +76,3 @@ triple {
 triple > img {
     width: 33%;
 }
-
-video {
-    height: 75vh;
-}
-
