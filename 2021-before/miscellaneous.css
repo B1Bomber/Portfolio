@@ -44,3 +44,19 @@ split {
 split > img {
     width: 50%;
 }
+
+triple {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+triple > img {
+    width: 33%;
+}
+
+video {
+    height: 75vh;
+}
+
