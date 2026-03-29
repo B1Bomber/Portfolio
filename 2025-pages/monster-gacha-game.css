@@ -40,14 +40,27 @@ video {
     object-fit: contain;
 }
 
+#game-home {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
 iframe {
     width: 100%;
     height: 100vh;
     object-fit: contain;
 }
 
-#game-home {
+split {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    justify-content: center;
+}
+split > section {
+    width: 50%;
+}
+
+split h2 {
+    text-align: center;
 }

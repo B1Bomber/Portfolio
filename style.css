@@ -20,7 +20,7 @@ h2 {
     font-size: clamp(20px, 4vw, 72px);
     margin: 0 auto;
     width: fit-content;
-    font-family: Apple Chancery;
+    font-family: beaufort;
 }
 
 p {
